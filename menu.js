@@ -32,14 +32,7 @@
                     process.exit();
                 }
             }));
-            sub2.append(new gui.MenuItem({
-                label: 'dos',
-                click: function() {
-                    process.exit();
-                }
-            }));
 
-            // You can have submenu!
             menubar.append(new gui.MenuItem({ label: 'Sub1', submenu: sub1}));
 
             //assign the menubar to window menu
