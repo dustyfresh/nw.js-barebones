@@ -1,0 +1,19 @@
+{
+  "name": "desktop-app",
+  "version": "1.0.0",
+  "description": "butts",
+  "main": "index.html",
+  "scripts": {
+    "start": "nw ."
+  },
+  "author": "dustyfresh",
+  "license": "WTFPL",
+  "window": {
+    "frame": false,
+    "toolbar": true,
+    "show": true,
+    "resizable": false,
+    "width": 600,
+    "height": 600
+  }
+}
